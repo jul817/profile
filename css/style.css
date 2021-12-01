@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@700&display=swap');
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -24,15 +24,19 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
+
 }
 
 
 :root {
+  /* colors */
   --color-bg: #9BA2FF;
+  /* fonts */
+  --ff-neutral: 'Montserrat', sans-serif;
+  --ff-primary: 'Montserrat Subrayada', sans-serif;
 }
 
 body{
-
   background-color: var(--color-bg);
   color: rgb(9, 47, 59);
   font-size: 17px;
