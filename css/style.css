@@ -20,9 +20,20 @@
   }
 }
 
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+:root {
+  --color-bg: #9BA2FF;
+}
+
 body{
 
-  background-image: linear-gradient(#00ffff2b, #0000ff69);
+  background-color: var(--color-bg);
   color: rgb(9, 47, 59);
   font-size: 17px;
   font-weight: lighter;
