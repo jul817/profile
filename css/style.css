@@ -38,9 +38,7 @@
 
 body{
   background-color: var(--color-bg);
-  color: rgb(9, 47, 59);
-  font-size: 17px;
-  font-weight: lighter;
+  font-size: 1.3125rem;
 }
 
 
